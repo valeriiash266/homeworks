@@ -1,0 +1,19 @@
+h3 {
+	color: pink;
+}
+
+#grecol {
+	color: grey;
+}
+
+.content {
+	color: blue;
+}
+
+p::selection {
+	color: green;
+}
+
+.yellow {
+	color: yellow;
+}

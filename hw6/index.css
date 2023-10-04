@@ -1,0 +1,35 @@
+.contact-form {
+	border: 2px solid #333;
+	padding: 20px;
+	width: 300px;
+	position: relative;
+	border-top: none;
+}
+
+.contact-form::before {
+	content: "Контактная информация";
+	position: absolute;
+	top: -12px;
+	z-index: 1;
+}
+
+.contact-form::after {
+	content: "";
+	width: 140px;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/* Стили для обязательных полей */
+label span {
+	color: red;
+}
+
+textarea {
+	display: block;
+	resize: none;
+}
+
